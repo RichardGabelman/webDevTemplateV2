@@ -23,6 +23,7 @@ module.exports = {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
       },
+      /*
       // For images we use in JavaScript
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
@@ -33,7 +34,7 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
       },
-      /*
+      
       // For images referenced in our HTML template
       npm install --save-dev html-loader
       {
